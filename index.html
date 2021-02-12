@@ -5,13 +5,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/ec9a940d62.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/main.css" />
-    <title>Project Name</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>Stock Visualizer</title>
 </head>
 
 <body>
     <script src="./dist/main.js"></script>
-    <h1>SHOWING INDEX.HTML</h1>
+    <div id="root">
+      
+        <div id="navbar-container">
+            <div id="navbar-left">
+                <h1 id="logo">Stock Visualizer</h1>
+            </div>
+            <div id="navbar-middle">
+                <input type="text" id="stock-search-input">
+                <input type="submit" id="stock-search-button" value="search">
+            
+            </div>
+            <div id="navbar-right">
+                <a href="https://github.com/ralles-liu" class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/ralles-liu/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div id="graph">
+
+        </div>
+
+        <div id="details">
+
+        </div>
+
+    </div>
 </body>
 
 </html>
