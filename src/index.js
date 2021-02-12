@@ -10,10 +10,11 @@ window.addEventListener("DOMContentLoaded", () => {
     
     document.getElementById("stock-search-button").onclick = function() {getData()}
 
-    d3.csv("src/data/test.csv").then(function(data) {
-        console.log(data);
-    });
+    // d3.csv("src/data/test.csv").then(function(data) {
+    //     console.log(data);
+    // });
   
     
 
 })
+    
